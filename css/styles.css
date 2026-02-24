@@ -189,3 +189,32 @@ img {
   color: #f4f4fd;
   background-color: #000000;
 }
+/* OUR PORTFOLIO */
+.portfolio {
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--third-navyblue-color);
+}
+.portfolio-link {
+}
+.portfolio-list {
+}
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--third-navyblue-color);
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-slate-color);
+}
