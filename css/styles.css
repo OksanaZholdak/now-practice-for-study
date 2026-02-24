@@ -1,5 +1,5 @@
 body {
-  font-family:;
+  font-family: "Roboto", sans-serif;
 }
 p,
 h1,
@@ -24,7 +24,7 @@ ol {
 .list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 button {
@@ -33,6 +33,25 @@ button {
 img {
   display: block;
 }
+:root {
+  --first-slate-color: #434455;
+  --second-white-color: #ffffff;
+  --third-navyblue-color: #2e2f42;
+  --fourth-iris-color: #4d5ae5;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* HEADER */
 .header {
 }
 .header-section {
@@ -43,7 +62,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:;
+  color: var(--third-navyblue-color);
 }
 .header-span {
   font-weight: 700;
@@ -51,7 +70,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--fourth-iris-color);
 }
 .header-list {
 }
@@ -60,7 +79,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--third-navyblue-color);
 }
 .header-address {
 }
@@ -69,12 +88,104 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: var(--first-slate-color);
 }
 .header-tel {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: var(--first-slate-color);
+}
+/* MAIN */
+/* HERO */
+.title {
+  background-color: #4d5ae5;
+}
+.title-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--second-white-color);
+}
+.title-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--second-white-color);
+}
+/* BENEFITS */
+.benefits {
+}
+.benefits-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-slate-color);
+}
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--third-navyblue-color);
+}
+/* OUR TEAM */
+.section-team {
+}
+.team {
+}
+.team-link {
+}
+.team-list {
+}
+.name-coworker {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--third-navyblue-color);
+}
+.coworker-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--first-slate-color);
+}
+/* FOOTER */
+.footer {
+}
+.section-footer {
+}
+.footer-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-navyblue-color);
+}
+.footer-span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--fourth-iris-color);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #000000;
 }
