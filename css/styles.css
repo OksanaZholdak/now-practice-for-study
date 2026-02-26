@@ -61,6 +61,8 @@ img {
 .header {
 }
 .header-section {
+  display: flex;
+  align-items: center;
 }
 .header-link {
   font-weight: 700;
@@ -79,6 +81,8 @@ img {
   color: var(--fourth-iris-color);
 }
 .header-list {
+  display: flex;
+  align-items: center;
 }
 .header-item {
   font-weight: 500;
@@ -88,6 +92,8 @@ img {
   color: var(--third-navyblue-color);
 }
 .header-address {
+  display: flex;
+  align-items: center;
 }
 .header-mail {
   font-weight: 400;
