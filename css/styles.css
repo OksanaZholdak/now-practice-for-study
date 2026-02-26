@@ -51,6 +51,12 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
+.conteiner {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 /* HEADER */
 .header {
 }
