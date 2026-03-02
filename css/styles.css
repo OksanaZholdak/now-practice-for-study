@@ -58,8 +58,6 @@ img {
   margin: 0 auto;
 }
 /* HEADER */
-.header {
-}
 .header-section {
   display: flex;
   align-items: center;
@@ -83,6 +81,7 @@ img {
 .header-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .header-item {
   font-weight: 500;
@@ -94,6 +93,7 @@ img {
 .header-address {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .header-mail {
   font-weight: 400;
