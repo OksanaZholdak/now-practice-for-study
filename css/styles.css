@@ -61,6 +61,10 @@ img {
 .header-section {
   display: flex;
   align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .header-link {
   font-weight: 700;
@@ -69,6 +73,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--third-navyblue-color);
+  margin-right: 76px;
 }
 .header-span {
   font-weight: 700;
@@ -82,6 +87,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-right: 332px;
 }
 .header-item {
   font-weight: 500;
@@ -112,7 +118,8 @@ img {
 /* MAIN */
 /* HERO */
 .title {
-  background-color: #4d5ae5;
+  background-color: #2727a3;
+  text-align: center;
 }
 .title-hero {
   font-weight: 700;
@@ -121,6 +128,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--second-white-color);
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-bottom: 48px;
+  padding-left: 292px;
 }
 .title-btn {
   font-family: inherit;
@@ -129,6 +140,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--second-white-color);
+  border-radius: 4px;
+  padding-block: 16px;
+  padding-inline: 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: var(--fourth-iris-color);
 }
 /* BENEFITS */
 .benefits {
